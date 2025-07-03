@@ -2,6 +2,5 @@
 __pycache__
 .ipynb_checkpoints
 .snakemake
-video_features.csv
-video_features/
 figs/
+df_all.csv
