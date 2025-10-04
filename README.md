@@ -1,12 +1,15 @@
-This repository contains the code required to replicate the results from the following publication (in submission).
+This repository contains the code required to replicate the results from the following publication.
 
 > **Video-based biomechanical analysis captures disease-specific movement signatures of different neuromuscular diseases**
 >
 > Parker S. Ruth\*, Scott D. Uhlrich\*, Constance de Monts, Antoine Falisse, Julie Muccini, Sydney Covitz, Shelby Vogt-Domke, John Day, Tina Duong†, Scott Delp†
 >
 > \*Contributed equally, †Contributed equally
+> 
+> DOI link: https://doi.org/10.1056/AIoa2401137
 
 This code has been tested on MacOS.
+
 
 ## Code Installation
 
@@ -88,4 +91,14 @@ jupyter lab
 First load and run `demographic_table.ipynb`. After this you will be able to run any of the other notebooks to reproduce the published figures and statistical analyses.
 
 Intraclass correlation is calculated in `fig3_icc.ipynb` by calling an R script from Python via a shell. On MacOS, the `Rscript` command can be acquired by installing [RStudio](https://posit.co/downloads/). If R is not available on the computer, an alternative is to run the `fig3_icc_no_Rscript.ipynb` file, which reads all of the ICC from a pre-computed CSV file.
+
+
+## Citing This Work
+
+We invite you to cite both our [_NEJM AI_ paper](https://doi.org/10.1056/AIoa2401137) and our [Zenodo dataset](https://doi.org/10.5281/zenodo.13788592).
+
+> P. S. Ruth, S. D. Uhlrich, et al., “Video-Based Biomechanical Analysis Captures Disease-Specific Movement Signatures of Different Neuromuscular Diseases,” NEJM AI, vol. 2, no. 9, p. AIoa2401137, Aug. 2025, doi: 10.1056/AIoa2401137.
+
+> P. S. Ruth, S. D. Uhlrich, et al., “Kinematics and timed function tests of facioscapulohumeral muscular dystrophy and myotonic dystrophy.” Zenodo, Sept. 19, 2024. doi: 10.5281/zenodo.13788592.
+
 
