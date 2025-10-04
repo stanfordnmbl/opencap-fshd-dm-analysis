@@ -58,7 +58,7 @@ At this point, your working directory should be organized as follows:
     └── figure_generation
 ```
 
-Unzip the `opencap_data .zip` directory.
+Unzip the `opencap_data.zip` directory.
 
 ```
 unzip datadir/opencap_data.zip -d datadir
