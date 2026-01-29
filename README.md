@@ -69,7 +69,7 @@ unzip datadir/opencap_data.zip -d datadir
 
 ## Feature Extraction
 
-The feature extraction pipeline uses the [snakemake](https://snakemake.github.io/). This is a Makefile-like tool that automates feature extraction across all of the activities. This may take 10 minutes to run or more depending on your machine. Use the lines below to run the pipeline. At any time, the pipeline can be halted by pressing `CTL-C`. When restarted, it snakemake will resume from where it left off.
+The feature extraction pipeline uses [Snakemake](https://snakemake.github.io/). This is a Makefile-like tool that automates feature extraction across all of the activities. This may take 10 minutes to run or more depending on your machine. Use the lines below to run the pipeline. At any time, the pipeline can be halted by pressing `CTL-C`. When restarted, snakemake will resume from where it left off.
 
 ```
 cd opencap-fshd-dm-analysis/feature_extraction
