@@ -1,6 +1,8 @@
 channels:
+  - bioconda
+  - opensim-org
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - ipywidgets
   - jupyterlab
@@ -18,6 +20,6 @@ dependencies:
   - statsmodels
   - tqdm
   - zenodo_get
-  - bioconda::snakemake
-  - opensim-org::opensim=4.4
+  - snakemake
+  - opensim=4.4
 
