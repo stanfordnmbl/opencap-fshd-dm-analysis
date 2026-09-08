@@ -7,8 +7,7 @@ from numpy.linalg import norm
 from scipy.spatial import ConvexHull
 from scipy.spatial.transform import Rotation as R
 
-from utilsLoaders import read_trc, read_mot
-from utils import trc_arm_angles
+from utilsLoaders import read_trc
 
 
 

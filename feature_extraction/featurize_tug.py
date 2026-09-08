@@ -5,7 +5,7 @@ import pandas as pd
 import scipy.signal as ss
 from numpy.linalg import norm
 
-from utilsLoaders import read_trc, read_mot
+from utilsLoaders import read_trc
 
 
 def tug_trc_feats(xyz, markers, fps):

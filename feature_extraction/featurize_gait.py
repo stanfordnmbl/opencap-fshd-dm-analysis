@@ -1,14 +1,10 @@
-from pathlib import Path
-
 import numpy as np
-import pandas as pd
 import scipy.signal as ss
 from numpy.linalg import norm
 
 from utilsLoaders import read_trc, read_mot
 from utils import center_of_mass, center_of_mass_vel
 from utils import segment_gait_cycles
-from utils import angle_between_all
 
 
 def gait_trc_feats(xyz, markers, fps, com, comv, activity):

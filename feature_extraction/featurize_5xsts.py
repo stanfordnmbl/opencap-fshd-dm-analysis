@@ -5,9 +5,7 @@ import numpy as np
 import pandas as pd
 import scipy.signal as ss
 
-from numpy.linalg import norm
-
-from utilsLoaders import read_trc, read_mot
+from utilsLoaders import read_trc
 from utils import angle_between_all
 
 

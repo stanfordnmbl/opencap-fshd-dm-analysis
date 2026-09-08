@@ -2,10 +2,9 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import scipy.signal as ss
 
-from utilsLoaders import read_trc, read_mot
-from utils import trc_arm_angles, angle_between_all
+from utilsLoaders import read_trc
+from utils import trc_arm_angles
 
 
 def brooke_trc_feats(xyz, markers):
