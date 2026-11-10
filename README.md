@@ -13,7 +13,7 @@ This code has been tested on MacOS.
 
 ## Code Installation
 
-1. Install the [(mini)conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) or [mamba](https://mamba.readthedocs.io/en/stable/installation/mamba-installation.html) Python environment manager.
+1. Install the [miniconda](https://www.anaconda.com/docs/getting-started/installation) Python environment manager.
 
 2. Open a terminal and navigate to an empty working directory where you will download the code and data. Clone the GitHub repository and enter it:
 
