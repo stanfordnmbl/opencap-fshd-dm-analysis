@@ -61,9 +61,9 @@ def gait_trc_feats(xyz, markers, fps, com, comv, activity):
     ankle_elevs = []
     for cyc in full_cycles:
         if h[cyc[0]] > 0:
-            lenny = norm(np.diff(la[cyc],0))
+            lenny = norm(np.diff(la[cyc], axis=0))
         else:
-            lenny = norm(np.diff(ra[cyc],0))
+            lenny = norm(np.diff(ra[cyc], axis=0))
         stride_lens.append(lenny)
 
         # find ankle elevation at mid-swing
