@@ -70,7 +70,7 @@ def gait_trc_feats(xyz, markers, fps, com, comv, activity):
         assert len(cyc) == 2
         ia, ib = cyc[0], cyc[1]
         ms = ia + np.argmin(np.abs(la[ia:ib,2]-ra[ia:ib,2]))
-        ankle_elevs.append(np.abs(la[ms]-ra[ms]))
+        ankle_elevs.append(np.abs(la[ms,1]-ra[ms,1]))
     stride_len = np.median(stride_lens)
     ankle_elev = np.median(ankle_elevs)
 
